@@ -56,4 +56,8 @@ return {
       vim.keymap.set("n", "gK", require("hover").hover_select, { desc = "hover.nvim (select)" })
     end,
   },
+  {
+    "f-person/git-blame.nvim",
+    event = "VeryLazy",
+  },
 }
