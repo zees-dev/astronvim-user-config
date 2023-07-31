@@ -20,7 +20,8 @@ return {
         openai_params = {
           model = "gpt-4",
         },
-        predefined_chat_gpt_prompts = "https://raw.githubusercontent.com/zees-dev/awesome-chatgpt-prompts/main/prompts.csv",
+        predefined_chat_gpt_prompts =
+        "https://raw.githubusercontent.com/zees-dev/awesome-chatgpt-prompts/main/prompts.csv",
       }
     end,
     dependencies = {
@@ -60,4 +61,5 @@ return {
     "f-person/git-blame.nvim",
     event = "VeryLazy",
   },
+  "Mofiqul/vscode.nvim",
 }
