@@ -69,4 +69,11 @@ return {
     },
     lazy = false,
   },
+
+  {
+    "folke/todo-comments.nvim",
+    config = function() require("todo-comments").setup {} end,
+    dependencies = { "nvim-lua/plenary.nvim" },
+    lazy = false,
+  },
 }
